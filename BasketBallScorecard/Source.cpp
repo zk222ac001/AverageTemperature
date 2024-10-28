@@ -29,6 +29,7 @@ int main(void) {
 
 	// output the frequencies in a tabular format
 	for (int i = 0; i < CONSTANT_VALUE; i++) {
+		// kun viser dem hvem er vinde
 		if (i == 1) {
 			printf("%d%12d\n", i, tempArray[i]);
 		}
