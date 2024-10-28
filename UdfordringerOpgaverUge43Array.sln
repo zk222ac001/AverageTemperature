@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AverageTemperature", "AverageTemperature\AverageTemperature.vcxproj", "{4FC2233A-1D5C-446F-A174-95C136C12B35}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasketBallScorecard", "BasketBallScorecard\BasketBallScorecard.vcxproj", "{90EA146E-F9A0-43C1-ACAD-4B2A5B6B1593}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{4FC2233A-1D5C-446F-A174-95C136C12B35}.Release|x64.Build.0 = Release|x64
 		{4FC2233A-1D5C-446F-A174-95C136C12B35}.Release|x86.ActiveCfg = Release|Win32
 		{4FC2233A-1D5C-446F-A174-95C136C12B35}.Release|x86.Build.0 = Release|Win32
+		{90EA146E-F9A0-43C1-ACAD-4B2A5B6B1593}.Debug|x64.ActiveCfg = Debug|x64
+		{90EA146E-F9A0-43C1-ACAD-4B2A5B6B1593}.Debug|x64.Build.0 = Debug|x64
+		{90EA146E-F9A0-43C1-ACAD-4B2A5B6B1593}.Debug|x86.ActiveCfg = Debug|Win32
+		{90EA146E-F9A0-43C1-ACAD-4B2A5B6B1593}.Debug|x86.Build.0 = Debug|Win32
+		{90EA146E-F9A0-43C1-ACAD-4B2A5B6B1593}.Release|x64.ActiveCfg = Release|x64
+		{90EA146E-F9A0-43C1-ACAD-4B2A5B6B1593}.Release|x64.Build.0 = Release|x64
+		{90EA146E-F9A0-43C1-ACAD-4B2A5B6B1593}.Release|x86.ActiveCfg = Release|Win32
+		{90EA146E-F9A0-43C1-ACAD-4B2A5B6B1593}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
