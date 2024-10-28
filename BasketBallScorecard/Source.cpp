@@ -11,8 +11,8 @@ int main(void) {
 	// 1 - win 
 	// 0 - loss 
 	int result[PLAYED_GAMES] = { 0,1,0,0,1,1,1,0,0,1,
-	                              0,1,0,1,1,1,1,1,0,0,
-	                              1,0,0,0,1,1,0,1};
+								  0,1,0,1,1,1,1,1,0,0,
+								  1,0,0,0,1,1,0,1 };
 
 	// New array hold the results of win and Loss
 	int tempArray[CONSTANT_VALUE] = { NULL };
@@ -25,10 +25,13 @@ int main(void) {
 	}
 
 	// display results
-	printf("%s%12s\n", "LossandWin", "Counting");
+	printf("%s%12s\n", "Win", "Hvor mange har det");
 
 	// output the frequencies in a tabular format
 	for (int i = 0; i < CONSTANT_VALUE; i++) {
-		printf("%6d%12d\n", i, tempArray[i]);
+		if (i == 1) {
+			printf("%d%12d\n", i, tempArray[i]);
+		}
 	}
 	return 0;
+}
